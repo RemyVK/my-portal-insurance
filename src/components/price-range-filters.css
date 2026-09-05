@@ -1,0 +1,15 @@
+.minMaxConatiner {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 20px;
+
+    input {
+        width: 60px;
+        height: 36px;
+    }
+}
+
+.title {
+    padding-top: 12px;
+}

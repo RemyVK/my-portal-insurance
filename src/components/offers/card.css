@@ -1,0 +1,50 @@
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 20px;
+    gap: 40px;
+
+    input {
+        height: 60px;
+        border: solid 1px var(--color-border);
+        border-radius: var(--radius);
+        padding: 0 40px;
+    }
+}
+
+.offerContainer {
+    display: flex;
+    border: solid 1px var(--color-border);
+    border-radius: var(--radius);
+    padding: 20px 16px;
+    max-width: 700px;
+}
+
+.offerDetails {
+    flex: 1;
+
+    .miniDetailsContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.miniDetails {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin: 0;
+    }
+}
+
+
+.offerCostActionDeatil {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    border-left: solid 1px var(--color-border);
+    margin-left: 16px;
+
+}

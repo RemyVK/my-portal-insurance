@@ -1,0 +1,12 @@
+header {
+    background-color: var(--color-surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    height: 60px;
+    margin: 4px;
+}
+
+.content {
+    display: flex;
+    gap: 16px;
+}
